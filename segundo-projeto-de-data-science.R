@@ -16,7 +16,7 @@ library(corrplot)
 correlacao <- cor(bc[, -10], method="spearman", use="complete.obs")
 corrplot.mixed(correlacao, upper = "ellipse")
 
-
+library(caret)
 
 
 
